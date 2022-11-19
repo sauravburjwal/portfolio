@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { BsInstagram } from 'react-icons/bs';
+import { SiLeetcode } from 'react-icons/si';
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
@@ -20,11 +20,11 @@ const HeaderSocials = () => {
         <FaGithub />
       </a>
       <a
-        href="https://instagram.com/SauravBurjwal"
+        href="https://leetcode.com/SauravBurjwal"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <BsInstagram />
+        <SiLeetcode />
       </a>
     </div>
   );

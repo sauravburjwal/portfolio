@@ -1,8 +1,10 @@
 import React from 'react';
 import './footer.css';
 import { FaFacebookF } from 'react-icons/fa';
-import { FiInstagram } from 'react-icons/fi';
 import { IoLogoTwitter } from 'react-icons/io';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -30,14 +32,20 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
+        <a href="https://www.linkedin.com/in/sauravburjwal">
+          <BsLinkedin />
+        </a>
         <a href="http://facebook.com/sauravburjwal">
           <FaFacebookF />
         </a>
-        <a href="http://instagram.com/sauravburjwal">
-          <FiInstagram />
+        <a href="https://github.com/sauravburjwal">
+          <FaGithub />
         </a>
         <a href="http://twitter.com/sauravburjwal">
           <IoLogoTwitter />
+        </a>
+        <a href="https://leetcode.com/SauravBurjwal">
+          <SiLeetcode />
         </a>
       </div>
 

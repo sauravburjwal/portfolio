@@ -1,6 +1,15 @@
 import React from 'react';
 import './experience.css';
-import { BsPatchCheckFill } from 'react-icons/bs';
+import { AiOutlineHtml5 } from 'react-icons/ai';
+import { IoLogoCss3 } from 'react-icons/io';
+import { SiJavascript } from 'react-icons/si';
+import { BsBootstrapFill } from 'react-icons/bs';
+import { SiTailwindcss } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { FaNodeJs } from 'react-icons/fa';
+import { SiMongodb } from 'react-icons/si';
+import { SiMysql } from 'react-icons/si';
+import { SiExpress } from 'react-icons/si';
 
 const Experience = () => {
   return (
@@ -10,88 +19,81 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h2>Frontend Development</h2>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <AiOutlineHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <IoLogoCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiJavascript className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Boosttrap</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Tailwind</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <FaReact className="experience__details-icon" />
               <div>
                 <h4>React</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-          </div>
-        </div>
-        {/* backend */}
-        <div className="experience__frontend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsBootstrapFill className="experience__details-icon" />
               <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>Boostrap</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiTailwindcss className="experience__details-icon" />
+              <div>
+                <h4>Tailwind</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* backend */}
+        <div className="experience__backend">
+          <h2>Backend Development</h2>
+          <div className="experience__content">
+            <article className="experience__details">
+              <FaNodeJs className="experience__details-icon" />
+              <div>
+                <h4>Node JS</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiExpress className="experience__details-icon" />
+              <div>
+                <h4>Express</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiMongodb className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiMysql className="experience__details-icon" />
               <div>
                 <h4>My SQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Python</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>

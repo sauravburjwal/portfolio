@@ -18,9 +18,11 @@
   cursor: default;
 }
 
-.experience__container > div h3 {
+.experience__container > div h2 {
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  text-decoration: underline;
   color: var(--color-primary);
 }
 
@@ -30,11 +32,13 @@
 }
 
 .experience__details {
+  margin-bottom: 20px;
   display: flex;
   gap: 1rem;
 }
 
 .experience__details-icon {
+  font-size: 30px;
   margin-top: 6px;
   color: var(--color-primary);
 }
