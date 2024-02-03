@@ -20,9 +20,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Expense Tracker',
-    github: 'https://github.com/sauravburjwal/expense-tracker',
-    demo: 'https://saurav-expense-tracker.netlify.app/',
+    title: 'Instagram Clone',
+    github: 'https://github.com/sauravburjwal/instatwin',
+    demo: 'https://saurav-instatwin.netlify.app/',
   },
   {
     id: 3,
