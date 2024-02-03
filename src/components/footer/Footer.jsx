@@ -32,19 +32,19 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/sauravburjwal">
+        <a href="https://www.linkedin.com/in/sauravburjwal" target="_blank">
           <BsLinkedin />
         </a>
-        <a href="http://facebook.com/sauravburjwal">
+        <a href="http://facebook.com/sauravburjwal" target="_blank">
           <FaFacebookF />
         </a>
-        <a href="https://github.com/sauravburjwal">
+        <a href="https://github.com/sauravburjwal" target="_blank">
           <FaGithub />
         </a>
-        <a href="http://twitter.com/sauravburjwal">
+        <a href="http://twitter.com/sauravburjwal" target="_blank">
           <IoLogoTwitter />
         </a>
-        <a href="https://leetcode.com/SauravBurjwal">
+        <a href="https://leetcode.com/SauravBurjwal" target="_blank">
           <SiLeetcode />
         </a>
       </div>
