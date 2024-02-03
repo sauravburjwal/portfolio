@@ -38,7 +38,7 @@ header {
 
 /* ===================== ME ===================== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(black, transparent);
   width: 22rem;
   height: 34rem;
   position: absolute;
@@ -46,7 +46,7 @@ header {
   margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 3rem 0 1.5rem 1.5rem;
+  padding: 3rem 0 0 0;
 }
 
 /* ===================== SCROLL DOWN ===================== */
@@ -62,7 +62,7 @@ header {
 /* =====================  MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 86vh;
   }
 }
 

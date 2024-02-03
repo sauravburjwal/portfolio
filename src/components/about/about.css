@@ -27,6 +27,9 @@
   transition: var(--transition);
 }
 
+.about__me-image img {
+  filter: grayscale(100%);
+}
 .about__me-image:hover {
   transform: rotate(0);
 }
@@ -63,7 +66,7 @@
 
 .about__card:hover {
   background: transparent;
-  background-color: var(--color-primary-variant);
+  background-color: var(--color-light);
   color: var(--color-bg);
   cursor: default;
 }
